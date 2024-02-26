@@ -1,0 +1,170 @@
+.head{
+    border:3px solid orange;
+    border-radius: 10px 10px;
+}
+.mainpart{
+    border:3px solid blue;
+    height:120%;
+    border-radius:10px 10px;
+}
+.block{
+    border:none;
+    width:17%;
+    height:40%;
+    margin: 20px;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:greenyellow;
+}
+.fcontainer{
+    border:3px solid green;
+    border-radius: 10px 10px;
+    height:50%;
+    background-color: #212121;
+}
+.fblock{
+    display: flex;
+}
+.links{
+    border:3px solid blue;
+    border-radius: 5px 5px;
+    width:105px;
+    height:30px;
+    position: absolute;
+    right:387px;
+    top:11px;
+}
+.subject{
+    font-size: 25px;
+    color: blueviolet;
+}
+.store{
+    display: flex;
+    justify-content: space-around;
+}
+.storenames{
+    display:flex;
+    justify-content: space-around;
+}
+.fheading{
+    color: blue;
+}
+.logincontainer{
+    border:2px solid greenyellow;
+    width:48%;
+    height:80%;
+    position: absolute;
+    left: 250px;
+    top: 119px;
+    background-color:aquamarine;
+}
+ul,li{
+    margin: 4px;
+    padding: 4px;
+    list-style-type: none;
+}
+.error{
+    color: red;
+    display: none;
+}
+.emailerror{
+    color: red;
+    display: none;
+}
+.passerror{
+    color: red;
+    display: none;
+
+}
+.cpasserror{
+    color: red;
+    display: none;
+
+}
+.caperror{
+    color: red;
+    display: none;
+}
+.forgotblock{
+    border:2px solid;
+    width:48%;
+    height:60%;
+    position: absolute;
+    left: 250px;
+    top: 119px;
+    background-color: bisque;
+}
+.signupblock{
+    border:2px solid black;
+    width:48%;
+    height:80%;
+    position: absolute;
+    left: 250px;
+    top: 119px;
+    background-color:aquamarine;
+}
+.eyeblock{
+    border: none;
+    position: absolute;
+    right:34px;
+    top:123px;
+}
+#hide{
+    display: none;
+}
+.length{
+    color: red;
+}
+.uppercase{
+    color: red;
+}
+.specialcase{
+    color: red;
+}
+.productblock{
+    border: none;
+    width: 100%;
+    height: 120%;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.pdetails{
+    border:2px solid orange;
+    width:235px;
+    height: 38%;
+}
+.ratingimage{
+    width:15px;
+    height:15px;
+}
+.adminblock{
+    border:2px solid black;
+    width:48%;
+    height:80%;
+    position: absolute;
+    left: 250px;
+    top: 119px;
+    background-color:aquamarine;
+}
+.price{
+    text-decoration: line-through;
+}
+.dprice{
+    color: green;
+}
+.pImage{
+    width:150px;
+    height:150px;
+}
+.bikes{
+    border:1px solid;
+    background-color: aliceblue;
+    width: 20%;
+    height:10%;
+    display: none;
+}
